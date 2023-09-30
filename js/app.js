@@ -57,7 +57,7 @@ function getRandom(min, max) {
         spock = spock ;
         return spock;
       }
-    
+
   }
   
   console.log(choixComputer());
@@ -67,3 +67,57 @@ function getRandom(min, max) {
 //   console.log(scissors);
 //   console.log(lizard);
 //   console.log(spock);
+
+
+//  recuperation du clicPlayer
+
+const btnRock = document.querySelector(".rock");
+const btnPaper = document.querySelector(".paper");
+const btnScissors = document.querySelector(".scissors");
+const btnLizard = document.querySelector(".lizard");
+const btnSpock = document.querySelector(".spock");
+let playerChoix = 0
+
+btnRock.addEventListener("click",()=>{
+   playerChoix = "rock"
+   console.log(`valeur de playerChoix dans la fonction click :${playerChoix}`);
+   return playerChoix
+});
+btnPaper.addEventListener("click",()=>{
+  playerChoix = "paper"
+  console.log(`valeur de playerChoix dans la fonction click :${playerChoix}`);
+  return playerChoix
+})
+
+console.log(`valeur de playerChoix en dehors du click :${playerChoix}`);
+
+console.log(btnRock);
+// console.log(btnPaper);
+// console.log(btnScissors);
+// console.log(btnLizard);
+// console.log(btnSpock);
+
+function game() {
+  if(rock===scissors){
+    console.log(`la pierre gagne`);
+  }if(rock===lizard){
+    console.log(`la pierre gagne`);
+  }if(paper===rock){
+    console.log(`le paiper gagne`);
+  }if(paper===spock){
+    console.log(`le papier gagne`);
+  }if(scissors===lizard){
+    console.log(`les ciseaux gagne`);
+  }if(scissors===paper){
+    console.log(`les ciseaux gange`);
+  }if(lizard===spock){
+    console.log(`le lezard gagne`);
+  }if(lizard===paper){
+    console.log(`le lezard gagne`);
+  }if(spock===scissors){
+    console.log(`spock gagne`);
+  }else{
+    console.log(`spock gagne`);
+  }
+  
+}
