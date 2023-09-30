@@ -8,6 +8,38 @@
     <title>Document</title>
 </head>
 <body>
+    <section class="player">
+        <div class="player-choix">
+            <button class="player-choix-btn rock"></button>
+            <button class="player-choix-btn paper"></button>
+            <button class="player-choix-btn scissors"></button>
+            <button class="player-choix-btn lizard"></button>
+            <button class="player-choix-btn spock"></button>
+        </div>
+        <section class="computer">
+            <div class="computer-img"></div>
+        </section>
+        <section class="computer">
+            <div class="computer-img"></div>
+        </section>
+        <section class="winner">
+            <div class="winner-img"></div>
+            <span class="winner-name"></span>
+        </section>
+        
+    </section>
     <script src="../js/app.js"></script>
 </body>
 </html>
+<!-- body = > section.player = > div.player-choix = > button.player-choix-btn.rock
+                                             = > button.player-choix-btn.paper
+                                             = > button.player-choix-btn.scissors
+                                             = > button.player-choix-btn.lizard
+                                             = > button.player-choix-btn.spock
+
+     = > section.computer = > div.computer-img   
+
+     = > section.winner   = > div.winner-img
+                          = > span.winner-name
+                          
+     = > section.scores = > table.scores-table = > ul.scores-table-ul = > (injection avec js li.scores-table-ul-li) -->
