@@ -5,6 +5,7 @@
 ## js
 
 - lié les 5 buttons a  const rock-paper-scissors-lizard-spock (player)
+-  - au clic comparré  avec le computer
 - 
 - créer un generateur de number au asard de 1 a 5 (computer)
 - 

@@ -66,9 +66,9 @@
     {
       "id": "pointer:pointer",
       "typeName": "pointer",
-      "x": 1290,
-      "y": 109,
-      "lastActivityTimestamp": 1696058382548,
+      "x": -126,
+      "y": 613,
+      "lastActivityTimestamp": 1696058396030,
       "meta": {}
     },
     {
@@ -89,9 +89,7 @@
     {
       "editingId": null,
       "croppingId": null,
-      "selectedIds": [
-        "shape:V-z5qM23dyzd9aJU6j3yw"
-      ],
+      "selectedIds": [],
       "hoveredId": null,
       "erasingIds": [],
       "hintingIds": [],
