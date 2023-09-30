@@ -60,7 +60,7 @@ function getRandom(min, max) {
 
   }
   
-  console.log(choixComputer());
+  console.log(choixComputer());//il faut faire le log dans la console car l'evenement n'est pas passé
 
 //   console.log(rock);
 //   console.log(paper);
